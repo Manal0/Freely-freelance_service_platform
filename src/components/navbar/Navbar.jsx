@@ -4,7 +4,18 @@ import "./Navbar.scss"
 const Navbar = () => {
   return (
     <div className='navbar'>
-      nav
+      <div className="container">
+        <div className="logo">
+            <span className="text">freely</span>
+        </div>
+        <div className="links">
+            <span>Explore</span>
+            <span>English</span>
+            <span>Sign in</span>
+            <span>Become a Seller</span>
+            <button>Join</button>
+        </div>
+      </div>
     </div>
   )
 }

@@ -13,6 +13,12 @@ import "./app.scss";
 // import Message from "./pages/message/Message";
 // import MyGigs from "./pages/myGigs/MyGigs";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import GigCard from "./components/gigCard/GigCard";
+import Gigs from "./pages/gigs/Gigs";
+import MyGigs from "./pages/myGigs/MyGigs";
+import Gig from "./pages/gig/Gig";
+import Message from "./pages/message/Message";
+import Messages from "./pages/messages/Messages";
 
 function App() {
   const Layout = () => {
@@ -33,6 +39,26 @@ function App() {
         {
           path: "/",
           element: <Home />,
+        },
+        {
+          path: "/gig",
+          element: <Gigs />,
+        },
+        {
+          path: "/mygigsadd",
+          element: <MyGigs />,
+        },
+        {
+          path: "/gig1",
+          element: <Gig />,
+        },
+        {
+          path: "/message",
+          element: <Message />,
+        },
+        {
+          path: "/messages",
+          element: <Messages />,
         }
       ]
     },

@@ -34,7 +34,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="links">
-            <span>Explore</span>
+            <Link className="link" to="/gig">Explore</Link>
             <span>English</span>
             <span>Sign in</span>
             {!currentUser?.isSeller && <span>Become a Seller</span>}
@@ -46,8 +46,8 @@ const Navbar = () => {
                   {open && <div className="options">
                     {currentUser?.isSeller && (
                       <>
-                        <Link className="link" to="/mygigs">Gigs</Link>
-                        <Link className="link" to="/add">Add New Gig</Link>
+                        <Link className="link" to="/">Gigs</Link>
+                        <Link className="link" to="/mygigsadd">Add New Gig</Link>
                       </>
                     )}
                     <Link className="link" to="/orders">Order</Link>

@@ -3,15 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import "./app.scss";
-// import Gigs from "./pages/gigs/Gigs";
-// import Gig from "./pages/gig/Gig";
-// import Login from "./pages/login/Login";
-// import Register from "./pages/register/Register";
-// import Add from "./pages/add/Add";
-// import Orders from "./pages/orders/Orders";
-// import Messages from "./pages/messages/Messages";
-// import Message from "./pages/message/Message";
-// import MyGigs from "./pages/myGigs/MyGigs";
+
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import GigCard from "./components/gigCard/GigCard";
 import Gigs from "./pages/gigs/Gigs";
@@ -19,6 +11,8 @@ import MyGigs from "./pages/myGigs/MyGigs";
 import Gig from "./pages/gig/Gig";
 import Message from "./pages/message/Message";
 import Messages from "./pages/messages/Messages";
+import Orders from "./pages/orders/Orders";
+import Add from "./pages/add/Add"
 
 function App() {
   const Layout = () => {
@@ -41,24 +35,32 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/gig",
+          path: "/gigs",
           element: <Gigs />,
         },
         {
-          path: "/mygigsadd",
+          path: "/mygigs",
           element: <MyGigs />,
         },
         {
-          path: "/gig1",
+          path: "/gig",
           element: <Gig />,
         },
         {
-          path: "/message",
+          path: "/message/id",
           element: <Message />,
         },
         {
           path: "/messages",
           element: <Messages />,
+        },
+        {
+          path: "/orders",
+          element: <Orders/>
+        },
+        {
+          path: "/add",
+          element: <Add/>
         }
       ]
     },

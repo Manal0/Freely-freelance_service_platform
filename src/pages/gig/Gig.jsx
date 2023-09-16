@@ -17,11 +17,11 @@ function Gig() {
             />
             <span>Anna Bell</span>
             <div className="stars">
-              <img src="/img/star.png" alt="" />
-              <img src="/img/star.png" alt="" />
-              <img src="/img/star.png" alt="" />
-              <img src="/img/star.png" alt="" />
-              <img src="/img/star.png" alt="" />
+              <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+              <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+              <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+              <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+              <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
               <span>5</span>
             </div>
           </div>
@@ -65,11 +65,11 @@ function Gig() {
               <div className="info">
                 <span>Anna Bell</span>
                 <div className="stars">
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
+                  <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                  <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                  <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                  <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                  <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
                   <span>5</span>
                 </div>
                 <button>Contact Me</button>
@@ -128,11 +128,11 @@ function Gig() {
                 </div>
               </div>
               <div className="stars">
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
                 <span>5</span>
               </div>
               <p>
@@ -171,11 +171,11 @@ function Gig() {
                 </div>
               </div>
               <div className="stars">
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
                 <span>5</span>
               </div>
               <p>
@@ -212,11 +212,11 @@ function Gig() {
                 </div>
               </div>
               <div className="stars">
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
+                <img src="https://www.pngfind.com/pngs/m/4-44880_image-result-for-star-vector-rating-star-single.png" alt="" />
                 <span>5</span>
               </div>
               <p>

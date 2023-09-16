@@ -46,8 +46,8 @@ const Navbar = () => {
                   {open && <div className="options">
                     {currentUser?.isSeller && (
                       <>
-                        <Link className="link" to="/">Gigs</Link>
-                        <Link className="link" to="/mygigsadd">Add New Gig</Link>
+                        <Link className="link" to="/gigs">Gigs</Link>
+                        <Link className="link" to="/add">Add New Gig</Link>
                       </>
                     )}
                     <Link className="link" to="/orders">Order</Link>
@@ -63,8 +63,33 @@ const Navbar = () => {
        <>
       <hr />
       <div className="menu">
-        <span>Test</span>
-        <span>Test2</span>
+      <Link className="link menuLink" to="/">
+              Graphics & Design
+            </Link>
+            <Link className="link menuLink" to="/">
+              Video & Animation
+            </Link>
+            <Link className="link menuLink" to="/">
+              Writing & Translation
+            </Link>
+            <Link className="link menuLink" to="/">
+              AI Services
+            </Link>
+            <Link className="link menuLink" to="/">
+              Digital Marketing
+            </Link>
+            <Link className="link menuLink" to="/">
+              Music & Audio
+            </Link>
+            <Link className="link menuLink" to="/">
+              Programming & Tech
+            </Link>
+            <Link className="link menuLink" to="/">
+              Business
+            </Link>
+            <Link className="link menuLink" to="/">
+              Lifestyle
+            </Link>
       </div>
       </>
        ) 

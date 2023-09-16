@@ -9,9 +9,11 @@ function Featured()  {
           <h1>Find the perfect <i>freelance</i> services for you</h1>
           <div className="search">
             <div className="searchInput">
-              <img src="https://clipground.com/images/search-icon-clipart.png" alt="" />
-              <input type="text" placeholder="Search here" />
+            <img src="" alt="" />
+            
+                  <input type="text" placeholder="Search here" />
             </div>
+            
             <button>Search</button>
           </div>
           <div className="popular">

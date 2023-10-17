@@ -16,7 +16,7 @@ function Featured() {
       <div className="container">
         <div className="left">
           <h1>
-            Find the perfect <span>freelance</span> services for your business
+            Find the perfect <span>freelance</span> services for you
           </h1>
           <div className="search">
             <div className="searchInput">
@@ -29,16 +29,16 @@ function Featured() {
             </div>
             <button onClick={handleSubmit}>Search</button>
           </div>
-          <div className="popular">
+          {/* <div className="popular">
             <span>Popular:</span>
             <button>Web Design</button>
             <button>WordPress</button>
             <button>Logo Design</button>
             <button>AI Services</button>
-          </div>
+          </div> */}
         </div>
         <div className="right">
-          <img src="./img/man.png" alt="" />
+          {/* <img src="./img/man.png" alt="" /> */}
         </div>
       </div>
     </div>

@@ -47,10 +47,10 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">Freely > Graphics & Design ></span>
+        <span className="breadcrumbs">Freely</span>
         <h1>Results </h1>
         <p>
-          Explore the boundaries of art and technology with Freely's AI artists
+          Explore the boundaries of art and technology with Freely
         </p>
         <div className="menu">
           <div className="left">

@@ -59,7 +59,7 @@ const Home = () => {
         </div>
       </div>
      </div>
-     <div className="features dark">
+     {/* <div className="features dark">
       <div className="container">
         <div className="item">
         <h1>freely <i>business</i></h1>
@@ -85,12 +85,12 @@ const Home = () => {
         </div>
       
      </div>
-    </div>
-    <Slide slidesToShow ={4} arrowScroll={4}>
+    </div> */}
+    {/* <Slide slidesToShow ={4} arrowScroll={4}>
      {projects.map(card=>(
        <ProjectCard key={card.id} item = {card}/>
     ))}
-     </Slide>
+     </Slide> */}
      
     </div>
   )

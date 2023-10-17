@@ -44,7 +44,7 @@ function Navbar() {
           <span className="dot">.</span>
         </div>
         <div className="links">
-          <span>Explore</span>
+        <Link className="link" to="/gigs"><span>Explore</span></Link>
           <span>English</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
@@ -89,33 +89,44 @@ function Navbar() {
         <>
           <hr />
           <div className="menu">
-            <Link className="link menuLink" to="/gigs?cat=design">
+            <Link className="link menuLink" to="/gigs?cat=Design">
               Graphics & Design
             </Link>
-            <Link className="link menuLink" to="/gigs?cat=Video">
+            <Link className="link menuLink" to="/gigs?cat=animation">
               Video & Animation
             </Link>
-            <Link className="link menuLink" to="/gigs?cat=design">
+            <Link className="link menuLink" to="/gigs?cat=writing_translation">
               Writing & Translation
             </Link>
-            <Link className="link menuLink" to="/gigs?cat=design">
+            <Link className="link menuLink" to="/gigs?cat=AI">
               AI Services
             </Link>
-            <Link className="link menuLink" to="/">
-              Digital Marketing
-            </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=music">
               Music & Audio
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=web">
               Programming & Tech
             </Link>
-            <Link className="link menuLink" to="/">
+            
+            <Link className="link menuLink" to="/gigs?cat=Business">
               Business
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=Lifestyle">
               Lifestyle
             </Link>
+            <Link className="link menuLink" to="/gigs?cat=WordPress">
+              WordPress
+            </Link>
+            <Link className="link menuLink" to="/gigs?cat=Voice_Over">
+              Voice Over
+            </Link>
+            <Link className="link menuLink" to="/gigs?cat=Vedio_Explainer">
+              Vedio Explainer
+            </Link>
+            <Link className="link menuLink" to="/gigs?cat=Illustration">
+              Illustration
+            </Link>
+            
           </div>
           <hr />
         </>

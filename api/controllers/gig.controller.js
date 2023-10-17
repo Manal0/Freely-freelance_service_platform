@@ -58,3 +58,12 @@ export const getGigs = async (req, res, next) => {
     next(err);
   }
 };
+export const getGigsByUserId = async (req, res, next) => {
+  const userId = req.params.userId; // Assuming you pass the user ID as a parameter
+  try {
+    const gigs = await Gig.find({ userId: userId });
+    res.status(200).json(gigs);
+  } catch (err) {
+    next(err);
+  }
+};

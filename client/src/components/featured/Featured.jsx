@@ -10,6 +10,7 @@ function Featured() {
   const handleSubmit = () => {
     navigate(`/gigs?search=${input}`);
   };
+
   return (
     <div className="featured">
       <div className="container">
@@ -22,7 +23,7 @@ function Featured() {
               <h2 className="Icon"><SearchIcon/></h2>
               <input
                 type="text"
-                placeholder='Try "building mobil app"'
+                placeholder='Search'
                 onChange={(e) => setInput(e.target.value)}
               />
             </div>
@@ -42,6 +43,7 @@ function Featured() {
       </div>
     </div>
   );
+  
 }
 
 export default Featured;

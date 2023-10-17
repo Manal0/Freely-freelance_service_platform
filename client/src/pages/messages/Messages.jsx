@@ -7,7 +7,7 @@ import moment from "moment";
 
 const Messages = () => {
   const currentUser = JSON.parse(localStorage.getItem("currentUser"));
-
+  
   const queryClient = useQueryClient();
 
   const { isLoading, error, data } = useQuery({
@@ -17,7 +17,7 @@ const Messages = () => {
         return res.data;
       }),
   });
-
+//  console.log(data);
   const mutation = useMutation({
     mutationFn: (id) => {
       return newRequest.put(`/conversations/${id}`);
@@ -56,6 +56,7 @@ const Messages = () => {
                     (!currentUser.isSeller && !c.readByBuyer)) &&
                   "active"
                 }
+                
                 key={c.id}
               >
                 <td>{currentUser.isSeller ? c.buyerId : c.sellerId}</td>

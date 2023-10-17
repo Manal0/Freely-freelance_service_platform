@@ -1,13 +1,12 @@
 import React, { useReducer, useState } from "react";
 import "./Add.scss";
-import { gigReducer, INITIAL_STATE } from "../reducers/gigReducer";
+import { gigReducer, INITIAL_STATE } from "../../reducers/gigReducer";
 import upload from "../../utils/upload";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import newRequest from "../../utils/newRequest";
 import { useNavigate } from "react-router-dom";
 
 const Add = () => {
-  
   const [singleFile, setSingleFile] = useState(undefined);
   const [files, setFiles] = useState([]);
   const [uploading, setUploading] = useState(false);
@@ -68,7 +67,6 @@ const Add = () => {
 
   return (
     <div className="add">
-      <form onSubmit={handleSubmit}>
       <div className="container">
         <h1>Add New Gig</h1>
         <div className="sections">
@@ -86,8 +84,6 @@ const Add = () => {
               <option value="web">Web Development</option>
               <option value="animation">Animation</option>
               <option value="music">Music</option>
-              <option value="music">AI Services</option>
-              <option value="music">other</option>
             </select>
             <div className="images">
               <div className="imagesInputs">
@@ -167,7 +163,6 @@ const Add = () => {
           </div>
         </div>
       </div>
-      </form>
     </div>
   );
 };
